@@ -80,7 +80,7 @@ body {
 }
 
 .gold-key:nth-child(8) {
-    left:662px;
+    left:728px;
 }
 
 .gold-key:nth-child(9) {
@@ -90,3 +90,14 @@ body {
 .gold-key:nth-child(10) {
     left:865px;
 }
+
+/* MAKE KEYS RESPONSIVE ON CLICK */
+.key:active {
+    transform: scale(0.95);
+}
+
+.white-key {
+    z-index: 1;}
+
+.gold-key {
+    z-index: 2;}
